@@ -1,2 +1,15 @@
 go mod init
 git init
+
+install compileDaemon
+https://github.com/githubnemo/CompileDaemon
+
+go get github.com/githubnemo/CompileDaemon
+go install github.com/githubnemo/CompileDaemon
+
+Install GoDotEnv
+https://github.com/joho/godotenv
+go get github.com/joho/godotenv
+go install github.com/joho/godotenv/cmd/godotenv@latest
+
+Install gin web framework
